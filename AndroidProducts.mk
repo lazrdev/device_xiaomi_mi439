@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022 The Potato Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_mi439.mk
+    $(LOCAL_DIR)/potato_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_mi439-user \
-    nad_mi439-userdebug \
-    nad_mi439-eng
+    potato_mi439-user \
+    potato_mi439-userdebug \
+    potato_mi439-eng

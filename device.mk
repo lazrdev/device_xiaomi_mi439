@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022 The Potato Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,11 +12,10 @@ PRODUCT_PACKAGES += \
     xiaomi_pine_overlay \
     xiaomi_olive_overlay \
     xiaomi_olive_overlay_Snap \
-    xiaomi_olive_overlay_SystemUI
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1440
-TARGET_SCREEN_WIDTH := 720
+    
+# QCOM Device
+PRODUCT_BOARD_PLATFORM := msm8937
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Permissions
 PRODUCT_COPY_FILES += \
