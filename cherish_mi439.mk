@@ -9,8 +9,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common PotatoProject stuff.
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit some common CherishOS stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+
+# Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit from mi439 device
@@ -23,7 +25,7 @@ PRODUCT_PACKAGES += \
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mi439
-PRODUCT_NAME := potato_mi439
+PRODUCT_NAME := cherish_mi439
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439

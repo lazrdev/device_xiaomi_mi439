@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_mi439.mk
+    $(LOCAL_DIR)/cherish_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_mi439-user \
-    potato_mi439-userdebug \
-    potato_mi439-eng
+    cherish_mi439-user \
+    cherish_mi439-userdebug \
+    cherish_mi439-eng

@@ -7,16 +7,21 @@
   {
     "repository": "device_xiaomi_sdm439-common",
     "target_path": "device/xiaomi/sdm439-common",
-    "branch":"12.0"
+    "branch":"12-cherish"
   },
   {
     "repository":"vendor_xiaomi_sdm439-common",
     "target_path":"vendor/xiaomi/sdm439-common",
-    "branch":"12.0"
+    "branch":"12"
   },
   {
     "repository":"kernel_xiaomi_sdm439",
     "target_path":"kernel/xiaomi/sdm439",
     "branch":"12.0"
+  },
+  {
+    "repository": "vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/miuicamera",
+    "branch": "master"
   }
 ]
