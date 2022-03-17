@@ -37,8 +37,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 DEVICE_MAINTAINER := iaiaian1
 
 # Fingerprint
-BUILD_FINGERPRINT := google/raven/raven:12/SQ1D.211205.016.A1/7957957:user/release-keys
-BUILD_DESCRIPTION := raven-user 12 SQ1D.211205.016.A1 7957957 release-keys
+BUILD_FINGERPRINT := google/raven/raven:12/S3B1.220218.004/8242181:user/release-keys
+BUILD_DESCRIPTION := raven-user 12 S3B1.220218.004 8242181 release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
