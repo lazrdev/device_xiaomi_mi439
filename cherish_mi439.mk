@@ -23,6 +23,8 @@ PRODUCT_PACKAGES += \
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
+CHERISH_VANILLA := true
+
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Device identifier. This must come after all inclusions
